@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XYZ || Home</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./color-var.css">
+  <link rel="stylesheet" href="./index.css">
+  <script src="qrcode.js"></script>
+</head>
+
+<body>
+  <nav>
+    <div class="logo" onclick="window.open('./index.html', '_self')">XYZ</div>
+    <ul id="navLinks">
+      <li onclick="window.open('./index.html', '_self')" class="active-menu">Home</li>
+      <li onclick="window.open('./tools.html', '_self')">Tools</li>
+      <li onclick="window.open('./aboutus.html', '_self')">About Us</li>
+      <li onclick="window.open('./aboutus.html', '_self')">Contact Us</li>
+      <li onclick="window.open('./privacypolicy.html', '_self')">Privacy Policy</li>
+      <li onclick="window.open('./termsandconditions.html', '_self')">T&C</li>
+    </ul>
+    <div class="menu-btn"><img id="menuImg" src="menu.png" alt="menu exped and collape"></div>
+  </nav>
+
+  <main>
+    <div id="toolBox">
+
+      <h2>QR Code</h2>
+
+      <h5>
+        <input type="text" id="link" placeholder="Text or URL here ..." onfocus="this.value=''">
+        <input type="button" id="btn" value="QR">
+      </h5>
+
+      <p id="err"></p>
+
+      <div id="box">
+
+
+        <!-- <div id="qrcode" title="sdf">
+          <canvas width="1080" height="1080" style="display: none;"></canvas>
+          <img alt="Scan me!" src="" style="display: block;">
+        </div>
+        <input type="color" id="clrPick" oninput="changeColor(this.value)" value="#000000" style="display: none;">
+        <label id="clr" for="clrPick">Change Color</label>
+        <span id="download">Download</span> -->
+
+      </div>
+
+    </div>
+
+    <div id="toolText">
+    </div>
+
+  </main>
+
+  <footer>
+    <hr>
+    All Rights <sup>©</sup> Reserved To The "XYZ"
+  </footer>
+</body>
+<script src="./script.js"></script>
+<script src="./index.js"></script>
+
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XYZ || Contact Us</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./color-var.css">
+  <link rel="stylesheet" href="./contactus.css">
+</head>
+
+<body>
+  <nav>
+    <div class="logo" onclick="window.open('./index.html', '_self')">XYZ</div>
+    <ul id="navLinks">
+      <li onclick="window.open('./index.html', '_self')">Home</li>
+      <li onclick="window.open('./tools.html', '_self')">Tools</li>
+      <li onclick="window.open('./aboutus.html', '_self')">About Us</li>
+      <li onclick="window.open('./contactus.html', '_self')" class="active-menu">Contact Us</li>
+      <li onclick="window.open('./privacypolicy.html', '_self')">Privacy Policy</li>
+      <li onclick="window.open('./termsandconditions.html', '_self')">T&C</li>
+    </ul>
+    <div class="menu-btn"><img id="menuImg" src="menu.png" alt="menu exped and collape"></div>
+  </nav>
+
+  <main>
+
+    <h2>Contact Us</h2>
+
+    <div id="bigBox">
+      <div id="leftBox">
+
+        <form action="#">
+
+          <input type="text" name="name" id="name" placeholder="Name">
+          <input type="email" name="email" id="email" placeholder="E-Mail">
+          <input type="text" name="subject" id="subject" placeholder="Subject">
+          <textarea name="msg" id="msg" placeholder="Msg...." rows="10"></textarea>
+          <input type="submit" value="Send Me !" class="link-hover">
+
+        </form>
+
+      </div>
+      <div id="rightBox">
+
+        <h4>We Welcome Your Feedback!</h4>
+
+        <p>We're always looking for ways to improve and make this website even more helpful. Feel free to share your
+          thoughts, suggestions, or any feedback you may have.</p>
+        <p><b>Here are some ways you can reach us:</b></p>
+
+
+        <a href=mailto:office@xyz.com?subject="Hi !">office@xyz.com</a>
+
+        <p>We appreciate your input and look forward to hearing from you!</p>
+
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <hr>
+    All Rights <sup>©</sup> Reserved To The "XYZ"
+  </footer>
+</body>
+<script src="./script.js"></script>
+
+</html>

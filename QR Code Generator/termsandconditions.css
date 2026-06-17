@@ -1,0 +1,29 @@
+main>* {
+    line-height: 2.2rem;
+}
+
+main li {
+    list-style: none;
+    font-weight: 300;
+}
+
+main h1,
+h2,
+h3,
+h4 {
+    font-weight: 400;
+}
+
+main p {
+    font-weight: 300;
+}
+
+main strong,
+b {
+    font-weight: 500;
+}
+
+#btn {
+    margin-top: 15px;
+    text-align: center;
+}

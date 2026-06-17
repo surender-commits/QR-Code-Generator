@@ -1,0 +1,10 @@
+* {
+  --primary-color: mediumorchid;
+
+  --gradient-first-color: #E3FDF5;
+  --gradient-second-color: #FFE6FA;
+
+  --white-color: #FDFDFD;
+  --grey-color: #F2F2F2;
+  --black-color: #181818;
+}
